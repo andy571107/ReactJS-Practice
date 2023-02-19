@@ -1,18 +1,23 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Customer from './components/customer'
 import './App.css';
+
+const customer = {
+  'name': '홍길동',
+  'birthday': '961222',
+  'gender': '남자',
+  'job': '대학생'
+}
 
 class App extends Component {
   render() {
     return (
-      <div className="gray-background">
-        <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          고객 관리 시스템을 만들어 가 봅시다.
-        </p>
-      </header>
-      </div>
+      <Customer
+        name={customer.name}
+        birthday={customer.birthday}
+        gender={customer.gender}
+        job={customer.job}
+      />
     );
   }
 }
