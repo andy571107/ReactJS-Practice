@@ -1,25 +1,20 @@
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
+class App extends Component {
+  render() {
+    return (
+      <div className="gray-background">
+        <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          고객 관리 시스템을 만들어 가 봅시다.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
-    </div>
-  );
+      </div>
+    );
+  }
 }
 
 export default App;
