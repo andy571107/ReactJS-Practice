@@ -8,7 +8,9 @@
    create-react-app <프로젝트 이름>
 4. cd <프로젝트 이름>
 5. npm install @material-ui/core --save --force
-6. yarn start
+6. npm install -g nodemon
+7. yarn
+8. yarn dev
 
 
 # Getting Started with Create React App
