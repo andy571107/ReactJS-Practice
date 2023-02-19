@@ -2,6 +2,15 @@
 
 본 프로젝트는 React 실습 목적으로 만들어 가는 고객 관리 시스템(Management System)입니다.
 
+1. https://nodejs.org/에서 최신 LTS version을 설치합니다.
+2. npm install create-react-app -g
+3. 특정 Folder로 이동하여
+   create-react-app <프로젝트 이름>
+4. cd <프로젝트 이름>
+5. npm install @material-ui/core --save --force
+6. yarn start
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
