@@ -6,7 +6,7 @@
  2. npm install create-react-app -g
  3. 특정 Folder로 이동하여
     create-react-app <프로젝트 이름>
- 4.     npm install react-scripts@latest --save --force
+ 4. npm install react-scripts@latest --save --force
  5. cd <프로젝트 이름>
  6. npm install @material-ui/core --save --force
  7. npm install -g nodemon
@@ -19,6 +19,8 @@
 14. npm install multer --save
 15. cd ..
 16. yarn dev
+
+참고: https://material-ui.com/demos/dialogs/
 
 # Getting Started with Create React App
 
