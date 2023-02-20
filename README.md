@@ -12,10 +12,11 @@
  7. yarn
  8. npm install mysql --save
  9. mysql에서 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'YourRootPassword';
-10. yarn dev
-11. cd client
-12. npm install axios --save --force
-13. npm audit fix --force
+10. cd client
+11. npm install axios --save --force
+12. npm audit fix --force
+13. npm install multer --save
+14. yarn dev
 
 # Getting Started with Create React App
 
