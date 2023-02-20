@@ -6,17 +6,19 @@
  2. npm install create-react-app -g
  3. 특정 Folder로 이동하여
     create-react-app <프로젝트 이름>
- 4. cd <프로젝트 이름>
- 5. npm install @material-ui/core --save --force
- 6. npm install -g nodemon
- 7. yarn
- 8. npm install mysql --save
- 9. mysql에서 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'YourRootPassword';
-10. cd client
-11. npm install axios --save --force
-12. npm audit fix --force
-13. npm install multer --save
-14. yarn dev
+ 4.     npm install react-scripts@latest --save --force
+ 5. cd <프로젝트 이름>
+ 6. npm install @material-ui/core --save --force
+ 7. npm install -g nodemon
+ 8. yarn
+ 9. npm install mysql --save
+10. mysql에서 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'YourRootPassword';
+11. cd client
+12. npm install axios --save --force
+13. npm audit fix --force
+14. npm install multer --save
+15. cd ..
+16. yarn dev
 
 # Getting Started with Create React App
 
