@@ -18,9 +18,12 @@
 13. npm audit fix --force
 14. npm install multer --save
 15. cd ..
-16. yarn dev
+16. npm install @material-ui/icons --save
+17. yarn add react-router-dom --save
+18. yarn dev
 
 참고: https://material-ui.com/demos/dialogs/
+      https://material-ui.com/demos/app-bar/
 
 # Getting Started with Create React App
 
