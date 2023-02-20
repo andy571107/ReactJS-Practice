@@ -2,7 +2,7 @@
 
 본 프로젝트는 React 실습 목적으로 만들어 가는 고객 관리 시스템(Management System)입니다.
 
- 1. https://nodejs.org/에서 최신 LTS version을 설치합니다.
+ 1. https://nodejs.org/에서 최신 LTS version 설치
  2. npm install create-react-app -g
  3. 특정 Folder로 이동하여
     create-react-app <프로젝트 이름>
@@ -13,7 +13,9 @@
  8. npm install mysql --save
  9. mysql에서 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'YourRootPassword';
 10. yarn dev
-
+11. cd client
+12. npm install axios --save --force
+13. npm audit fix --force
 
 # Getting Started with Create React App
 
